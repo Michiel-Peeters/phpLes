@@ -39,7 +39,7 @@ function controleerBNR($banknr)
         return false;
     }
 }
-//test
+
 
 foreach ($rek as $value) {
     if (controleerBNR($value)) {
