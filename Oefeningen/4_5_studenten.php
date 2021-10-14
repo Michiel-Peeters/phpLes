@@ -36,20 +36,18 @@ $studenten = [
     ]
 ];
 
-function StudentoTable($array)
-{
-
-    for ($i = 0; $i < sizeof($array); $i++) {
-        print("<h1>Student</h1>\n<table>\n");
-        foreach ($array[$i] as $key => $value) {
-            print("<tr><td>". ucfirst($key)."</td><td>". $value."</td></tr>\n");
-        }
-        print "\n";
-    }
-    print ("</table>");
-
-
+foreach ($studenten as $student){
+    StudentoTable($student);
 }
 
-print StudentoTable($studenten);
+function StudentoTable($student){
+    print("<h1>Student</h1>\n<table>\n");
+
+    foreach ($student as $key=>$value){
+        print("<tr><td>". ucfirst($key)."</td><td>". $value."</td></tr>\n");
+    }
+    print ("</table>");
+}
+
+
 
