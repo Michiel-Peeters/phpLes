@@ -5,7 +5,7 @@ ini_set( 'display_errors', 1 );
 $aantal_taarten = readline("Hoeveel taarten? ");
 $aantal_deelnemers = readline("Hoeveel deelnemers? ");
 TaartenVerdelen($aantal_taarten, $aantal_deelnemers);
-
+//test
 function TaartenVerdelen($aantal_taarten, $aantal_deelnemers)
 {
     $algemene_verdeling = $aantal_deelnemers / $aantal_taarten;
