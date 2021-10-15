@@ -27,4 +27,4 @@ function InhoudKegel($diameter1, $diameter2, $hoogte)
 
 }
 
-InhoudKegel(6, 8, 12);
+InhoudKegel(8, 12, 6);
