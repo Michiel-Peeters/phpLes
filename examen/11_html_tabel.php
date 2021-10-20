@@ -18,7 +18,7 @@ function StudentToTable($lijst)
     print "<h1>Student</h1>";
     print "<table>";
     foreach ($lijst as $key => $value) {
-        print "<tr><td>". ucfirst($key)."</td><td>. $value. </td></tr>";
+        print "<tr><td>". ucfirst($key)."</td><td>". $value. "</td></tr>";
     }
     print "</table>";
 }
