@@ -19,5 +19,5 @@ function StudentoTable($student){
     print ("</table>");
 }
 
-print StudentoTable($student);
+StudentoTable($student);
 
