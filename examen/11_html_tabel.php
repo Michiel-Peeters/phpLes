@@ -10,6 +10,7 @@ $student = [
     "telefoon" => "015 24 24 26",
     "e-mail" => "jan.janssens@gmail.com"
 ];
+var_dump($student);
 
 StudentToTable($student);
 
